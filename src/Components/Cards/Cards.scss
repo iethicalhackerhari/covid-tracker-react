@@ -1,0 +1,21 @@
+.card-div{
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:576px) {
+    .card-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:860px) {
+    .card-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

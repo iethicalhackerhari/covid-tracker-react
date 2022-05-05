@@ -1,0 +1,16 @@
+.countryPicker-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin-bottom: 2rem;
+        
+       .form-div{
+            outline: none !important;
+        }
+    .form-div:hover{
+        background: rgba(200,230,210,1);
+        cursor: pointer;
+
+    }
+}
